@@ -1,0 +1,1092 @@
+Cluster #,Query,Intent,Cluster Size,Cluster Summary
+1,"147                add milk shopping list
+168     remove milk add egg shopping list
+201      place order entire shopping list
+220                    know shopping list
+236               currently shopping list
+240    soda nt shopping list go ahead add
+251            please put dust list thing
+271               please note vacuum list
+292        put grocery shopping todo list
+316                    tell shopping list
+331                          get rid list
+338                                  list
+361                  take everything list
+376                              buy list
+397                    empty content list
+424         clean bathroom item todo list
+487             iterate item grocery list
+497              shopping list remove egg
+","147    b'shopping_list_update'
+168    b'shopping_list_update'
+201                   b'order'
+220           b'shopping_list'
+236           b'shopping_list'
+240    b'shopping_list_update'
+251        b'todo_list_update'
+271        b'todo_list_update'
+292               b'todo_list'
+316           b'shopping_list'
+331        b'todo_list_update'
+338               b'todo_list'
+361        b'todo_list_update'
+376           b'shopping_list'
+397        b'todo_list_update'
+424               b'todo_list'
+487           b'shopping_list'
+497    b'shopping_list_update'
+",18,list * shopping
+2,"17               clue taco bell take reservation
+19                      idea central reservation
+66             confirm john reservation applebee
+84                        nt reservation anymore
+89             cancel reservation dinner tonight
+92                   take reservation applebeesi
+159    tell new york restaurant take reservation
+161    cancel reservation dinner saturday please
+204      go ahead cancel reservation 5 red robin
+212                          bj take reservation
+239                          reservation anymore
+318                           cancel reservation
+370                          bj take reservation
+416                 know larpege ask reservation
+437       wish cancel reservation fred red robin
+480                    idea fly wing reservation
+","17     b'accept_reservations'
+19     b'accept_reservations'
+66     b'confirm_reservation'
+84      b'cancel_reservation'
+89      b'cancel_reservation'
+92     b'accept_reservations'
+159    b'accept_reservations'
+161     b'cancel_reservation'
+204     b'cancel_reservation'
+212    b'accept_reservations'
+239     b'cancel_reservation'
+318     b'cancel_reservation'
+370    b'accept_reservations'
+416    b'accept_reservations'
+437     b'cancel_reservation'
+480    b'accept_reservations'
+",16,reservation * take
+3,"30                                        account frozen
+76                         order check bank west account
+81               like change name first bankcard account
+128                        chase account order checkbook
+131                         problem account appear block
+150                                   check account work
+158                                    bank account lock
+167                         make 1234 pin saving account
+169                      tell saving account rout number
+226                           ca nt access chase account
+259                                        account block
+265                     order check bank america account
+283                                         account lock
+307                     reason u bank place hold account
+358                  chase account option direct deposit
+360    transfer ninety dollar glacier checking farmer...
+","30      b'freeze_account'
+76        b'order_checks'
+81          b'pin_change'
+128       b'order_checks'
+131    b'account_blocked'
+150    b'account_blocked'
+158    b'account_blocked'
+167         b'pin_change'
+169            b'routing'
+226    b'account_blocked'
+259    b'account_blocked'
+265       b'order_checks'
+283     b'freeze_account'
+307    b'account_blocked'
+358     b'direct_deposit'
+360           b'transfer'
+",16,account * bank
+4,"42             get credit limit increase 1000
+52                                 get credit
+59                  prevent credit score drop
+80              put request cash credit point
+134                         tell credit score
+173     step take ensure credit score nt drop
+243                      credit score improve
+247    increase credit limit capital one card
+250                     discover credit limit
+278                       locate credit score
+286                credit limit increase 1000
+431                   request new credit card
+438                                credit max
+439              know build good credit score
+470                   credit score numberwise
+","42           b'credit_limit_change'
+52           b'credit_limit_change'
+59          b'improve_credit_score'
+80                b'redeem_rewards'
+134                 b'credit_score'
+173         b'improve_credit_score'
+243         b'improve_credit_score'
+247          b'credit_limit_change'
+250                 b'credit_limit'
+278                 b'credit_score'
+286          b'credit_limit_change'
+431    b'replacement_card_duration'
+438                 b'credit_limit'
+439         b'improve_credit_score'
+470                 b'credit_score'
+",15,credit * score
+5,"6                         step get reward visa card
+13          much spend bank card sine last pay bill
+41                  date expiration first bank card
+114          wan na know credit card reward balance
+268                          get reward master card
+312                 know credit card reward balance
+335                     tell apr target credit card
+366                          tell apply credit card
+389              annual percentage rate credit card
+400    know next billing date american express card
+434                     nt remember pin number card
+445                     expiration date credit card
+465                   like check reward credit card
+484                       wo nt let pay credit card
+490                            card expiration date
+","6       b'redeem_rewards'
+13        b'transactions'
+41     b'expiration_date'
+114    b'rewards_balance'
+268     b'redeem_rewards'
+312    b'rewards_balance'
+335                b'apr'
+366           b'new_card'
+389                b'apr'
+400           b'bill_due'
+434         b'pin_change'
+445    b'expiration_date'
+465    b'rewards_balance'
+484      b'card_declined'
+490    b'expiration_date'
+",15,card * credit
+6,"31                                late pay cellular bill
+190                        minimum must pay verizon bill
+199                                phone bill last month
+213                                  tell water bill due
+339                               know pay electric bill
+364                        must pay minimum verizon bill
+414                            current billing cycle end
+429                              today electric bill pay
+447                                             bill due
+456                                due date comcast bill
+463    use navy federal account pay month verizon bil...
+482                                        help pay bill
+","31         b'bill_due'
+190     b'min_payment'
+199    b'bill_balance'
+213        b'bill_due'
+339        b'pay_bill'
+364     b'min_payment'
+414        b'bill_due'
+429        b'pay_bill'
+447        b'bill_due'
+456        b'bill_due'
+463        b'pay_bill'
+482        b'pay_bill'
+",12,bill * pay
+7,"120                  tell lose card
+180              report damage card
+234             replace damage card
+279    cost anything use card turin
+319           fee use card portland
+378             ca nt use card mess
+384                 get reject card
+392         replaecment card arrive
+393                report lost card
+435    credit card get torn new one
+477                    card decline
+","120             b'report_lost_card'
+180                 b'damaged_card'
+234                 b'damaged_card'
+279           b'international_fees'
+319           b'international_fees'
+378                 b'damaged_card'
+384                b'card_declined'
+392    b'replacement_card_duration'
+393             b'report_lost_card'
+435                 b'damaged_card'
+477                b'card_declined'
+",11,card * use
+8,"18                  saving account interest
+49                   interest rate get nfcu
+58         interest rate get sunflower bank
+124      state bank india card credit limit
+127              interest rate bofi give cd
+162              spending limit lloyds card
+258                      pnc routing number
+305                        bank rout number
+382             check account interest rate
+489    numerical number inside bank account
+","18     b'interest_rate'
+49     b'interest_rate'
+58     b'interest_rate'
+124     b'credit_limit'
+127    b'interest_rate'
+162     b'credit_limit'
+258          b'routing'
+305          b'routing'
+382    b'interest_rate'
+489          b'balance'
+",10,interest * rate
+9,"36     call different name please
+132             change name clara
+138                     tell name
+229     name person group program
+254                     know name
+285                    rename joe
+296                 name type pet
+315                     call name
+365                     tell name
+375                          name
+","36     b'change_user_name'
+132      b'change_ai_name'
+138           b'user_name'
+229        b'who_made_you'
+254           b'user_name'
+285      b'change_ai_name'
+296    b'do_you_have_pets'
+315           b'user_name'
+365           b'user_name'
+375           b'user_name'
+",10,name * call
+10,"0                  know change insurance policy
+11                       know get new insurance
+28                             tell health plan
+68                           new insurance plan
+69     phone number state farm change insurance
+72                   tell full name health plan
+394                       switch insurance plan
+473                         know insurance plan
+483                       switch insurance plan
+","0      b'insurance_change'
+11     b'insurance_change'
+28            b'insurance'
+68     b'insurance_change'
+69     b'insurance_change'
+72            b'insurance'
+394    b'insurance_change'
+473           b'insurance'
+483    b'insurance_change'
+",9,insurance * plan
+11,"111    check start time meeting schedule today
+144               may schedule car maintenance
+314            remove fencing calendar may 7th
+325                erase event friday calendar
+333                  calendar event march 19th
+372                      yo go school calendar
+396              walk process schedule meeting
+440                 meeting invoicing schedule
+442                             event calendar
+","111        b'meeting_schedule'
+144    b'schedule_maintenance'
+314         b'calendar_update'
+325         b'calendar_update'
+333                b'calendar'
+372                b'calendar'
+396        b'schedule_meeting'
+440        b'meeting_schedule'
+442                b'calendar'
+",9,calendar * schedule
+12,"45                                     luggage lose
+75                               ca nt find luggage
+119    must know carry restriction american airline
+160         let know status american airline flight
+183                               help find luggage
+208                                luggage misplace
+383       unfortunately appear luggage totally lose
+395                  status american airline flight
+469                                    lose luggage
+","45      b'lost_luggage'
+75      b'lost_luggage'
+119         b'carry_on'
+160    b'flight_status'
+183     b'lost_luggage'
+208     b'lost_luggage'
+383     b'lost_luggage'
+395    b'flight_status'
+469     b'lost_luggage'
+",9,luggage * lose
+13,"216           maker
+219      next track
+264    make brownie
+302      tell maker
+321       area come
+367            come
+458     banana list
+479        hit next
+","216            b'who_made_you'
+219               b'next_song'
+264        b'ingredients_list'
+302            b'who_made_you'
+321      b'where_are_you_from'
+367      b'where_are_you_from'
+458    b'shopping_list_update'
+479               b'next_song'
+",8,maker * next
+14,"33           flip coin call head
+133                 coin flip ai
+140          flip coin tell head
+198               head coin flip
+255    result roll four side die
+293                 ai roll dice
+323         roll dice seven side
+462            ai pick dice drop
+","33     b'flip_coin'
+133    b'flip_coin'
+140    b'flip_coin'
+198    b'flip_coin'
+255    b'roll_dice'
+293    b'roll_dice'
+323    b'roll_dice'
+462    b'roll_dice'
+",8,flip * coin
+15,"14           check look like
+48      please buy something
+77      buy something please
+96             tell item get
+146                    check
+241    get new check im mine
+301            tell birthday
+496                   go eat
+","14                   b'balance'
+48                     b'order'
+77                     b'order'
+96              b'order_status'
+146                      b'yes'
+241             b'order_checks'
+301          b'how_old_are_you'
+496    b'restaurant_suggestion'
+",8,check * please
+16,"3               come get decline
+5              whisper mode stop
+16     please start whisper mode
+38                 talk soon bye
+257          turn bathroom light
+267                 stop talk ai
+351        go whisper mode movie
+380           start whisper mode
+","3      b'card_declined'
+5       b'whisper_mode'
+16      b'whisper_mode'
+38           b'goodbye'
+257       b'smart_home'
+267           b'cancel'
+351     b'whisper_mode'
+380     b'whisper_mode'
+",8,whisper * mode
+17,"37                 change oil car know help
+116            place order olive oil finish
+122                     last get oil change
+139                 possible change oil use
+207                      oil change due car
+289                 day last oil car change
+430           recommend next get oil change
+452    next date get oil change appointment
+","37           b'oil_change_how'
+116                   b'order'
+122        b'last_maintenance'
+139          b'oil_change_how'
+207         b'oil_change_when'
+289        b'last_maintenance'
+430         b'oil_change_when'
+452    b'schedule_maintenance'
+",8,oil * change
+18,"56        calorie content dr pepper
+73             number calorie steak
+174      calorie content french fry
+203     kind calorie chicken tender
+225         many calorie expect fry
+310    tell nutritional info burger
+459             many calorie orange
+","56           b'calories'
+73           b'calories'
+174          b'calories'
+203          b'calories'
+225          b'calories'
+310    b'nutrition_info'
+459          b'calories'
+",7,calorie * content
+19,"25        start call fred
+108         make call vet
+156           call bailey
+209             make call
+210       start call owen
+223       think call cora
+379    please call bailey
+","25       b'change_ai_name'
+108           b'make_call'
+156    b'change_user_name'
+209           b'make_call'
+210      b'change_ai_name'
+223      b'change_ai_name'
+379    b'change_user_name'
+",7,call * start
+20,"61                    friday full 4
+107                kind thing today
+326       progress vacation request
+330    year date total vacation day
+349                       day today
+363              day request status
+460             amount vacation day
+","61               b'how_busy'
+107             b'todo_list'
+326    b'pto_request_status'
+330           b'pto_balance'
+349                  b'date'
+363    b'pto_request_status'
+460           b'pto_balance'
+",7,day * vacation
+21,"51       set alarm 6 tomorrow
+142     set alarm wake 5 30am
+185                 set timer
+398        set 4 minute timer
+409        set 1 minute timer
+417    help wake alarm 5 30am
+419                 use timer
+","51     b'alarm'
+142    b'alarm'
+185    b'timer'
+398    b'timer'
+409    b'timer'
+417    b'alarm'
+419    b'timer'
+",7,set * timer
+22,"83        add im listen rock playlist
+106    please add song study playlist
+152                   put 90 playlist
+245      im listen add chill playlist
+344               move onto next song
+377               let play music korn
+418          tell song currently play
+","83     b'update_playlist'
+106    b'update_playlist'
+152         b'play_music'
+245    b'update_playlist'
+344          b'next_song'
+377         b'play_music'
+418          b'what_song'
+",7,playlist * add
+23,"12       tell something funny horse
+47     tell something funny science
+55                      monkey joke
+153                       tell joke
+356                   let hear joke
+493                tell blonde joke
+498                       know joke
+","12     b'tell_joke'
+47     b'tell_joke'
+55     b'tell_joke'
+153    b'tell_joke'
+356    b'tell_joke'
+493    b'tell_joke'
+498    b'tell_joke'
+",7,joke * tell
+24,"9                          much money spend weekend
+118                           check much spend week
+151               say ve spend much money chip late
+194                       look week overspend hoagy
+272                       much money spend recently
+336                      go chocolate budget lately
+454    tell much money ve spend fast food past week
+","9      b'spending_history'
+118    b'spending_history'
+151    b'spending_history'
+194    b'spending_history'
+272    b'spending_history'
+336    b'spending_history'
+454    b'spending_history'
+",7,much * spend
+25,"24       know many vacation day use
+46            many vacation day use
+214                   vacation look
+284                request vacation
+295           many holiday next one
+329              help plan vacation
+406    vacation request information
+","24               b'pto_used'
+46               b'pto_used'
+214    b'pto_request_status'
+284           b'pto_request'
+295          b'next_holiday'
+329           b'pto_request'
+406           b'pto_request'
+",7,vacation * many
+26,"53                
+67             hey
+103        goodbye
+145          agree
+195               
+287           help
+426    really sure
+","53     b'where_are_you_from'
+67               b'greeting'
+103               b'goodbye'
+145                   b'yes'
+195      b'current_location'
+287    b'what_can_i_ask_you'
+426                 b'maybe'
+",7, * hey
+27,"125     set direct deposit
+181            report work
+340    make transfer money
+374            charge work
+491           pay internet
+499                   work
+","125         b'direct_deposit'
+181    b'who_do_you_work_for'
+340               b'transfer'
+374    b'who_do_you_work_for'
+491               b'bill_due'
+499    b'who_do_you_work_for'
+",6,work * set
+28,"98              gas type car
+172            whats mpg car
+196      gasoline much leave
+221          gas mileage car
+281    many mpg car get city
+388            full gas tank
+","98     b'gas_type'
+172         b'mpg'
+196         b'gas'
+221         b'mpg'
+281         b'mpg'
+388         b'gas'
+",6,car * gas
+29,"35                 date last go pay
+227        tell update order status
+248            updated status order
+262          let know date tomorrow
+345                   date tomorrow
+348    status order place yesterday
+","35           b'payday'
+227    b'order_status'
+248    b'order_status'
+262            b'date'
+345            b'date'
+348    b'order_status'
+",6,date * order
+30,"101          much pay irs
+141      pto use far much
+294              much pay
+297    long paycheck show
+390           much pto go
+485     many hour pto use
+","101       b'taxes'
+141    b'pto_used'
+294      b'income'
+297      b'payday'
+390    b'pto_used'
+485    b'pto_used'
+",6,much * pto
+31,"86                         visa get puerto rico
+104    capital one visa take without permission
+129                        visa require go cuba
+233                                 visa taiwan
+238                            go x travel visa
+436                               much use visa
+","86     b'international_visa'
+104      b'report_lost_card'
+129    b'international_visa'
+233    b'international_visa'
+238    b'international_visa'
+436          b'credit_limit'
+",6,visa * go
+32,"8                 weather austin
+70                       weather
+244                  home planet
+413                       origin
+423    somewhere else originally
+468                    originate
+","8                 b'weather'
+70                b'weather'
+244    b'where_are_you_from'
+413    b'where_are_you_from'
+423    b'where_are_you_from'
+468    b'where_are_you_from'
+",6,weather * austin
+33,"34                                     battery dead
+79                  someone look check engine light
+112                                  jump start car
+164                          process jump start car
+176    appointment someone check check engine light
+475                           get ta jump start car
+","34               b'jump_start'
+79     b'schedule_maintenance'
+112              b'jump_start'
+164              b'jump_start'
+176    b'schedule_maintenance'
+475              b'jump_start'
+",6,check * jump
+34,"230                look phone
+249                pair phone
+269            last put phone
+291           know find phone
+371    phone somewhere around
+471                     phone
+","230     b'find_phone'
+249    b'sync_device'
+269     b'find_phone'
+291     b'find_phone'
+371     b'find_phone'
+471     b'find_phone'
+",6,phone * look
+35,"263       say please
+304    repeat please
+324    repeat please
+355          may say
+408         able say
+443      affirmative
+","263    b'repeat'
+304    b'repeat'
+324    b'repeat'
+355    b'repeat'
+408     b'maybe'
+443       b'yes'
+",6,say * please
+36,"54                  find good place cleveland serve clam
+126              fantastic restaurant get shrimp atlanta
+197    find decent rental care next week philadelphia...
+353    find car rental weekend asheville nc via price...
+457                                get uber disney world
+478    find rental car next week friday 5th thru mond...
+","54     b'restaurant_suggestion'
+126    b'restaurant_suggestion'
+197               b'car_rental'
+353               b'car_rental'
+457                     b'uber'
+478               b'car_rental'
+",6,find * rental
+37,"82     timezone denver locate
+154          currently locate
+182              time zone la
+290     tell current location
+350          timezone houston
+453              la time zone
+","82             b'timezone'
+154    b'current_location'
+182            b'timezone'
+290    b'current_location'
+350            b'timezone'
+453            b'timezone'
+",6,timezone * locate
+38,"74             expiration date honey
+215         tofu expire keep freezer
+246                       egg expire
+449                     jerky expire
+494    long tofu last freezer expire
+","74     b'food_last'
+215    b'food_last'
+246    b'food_last'
+449    b'food_last'
+494    b'food_last'
+",5,expire * tofu
+39,"4      shot date travel virgin island
+15                  vaccine trip cuba
+261             shot travel argentina
+369         travel abroad vaccination
+403          required shot mozambique
+","4      b'vaccines'
+15     b'vaccines'
+261    b'vaccines'
+369    b'vaccines'
+403    b'vaccines'
+",5,shot * travel
+40,"90     play ludacris hit
+123           speed talk
+193            go faster
+270            drop beat
+303            talk slow
+","90       b'play_music'
+123    b'change_speed'
+193    b'change_speed'
+270      b'play_music'
+303    b'change_speed'
+",5,talk * play
+41,"71         traffic expect
+97      flight dl123 time
+148    flight dl123 delay
+320      get airport foot
+401        get train foot
+","71           b'traffic'
+97     b'flight_status'
+148    b'flight_status'
+320       b'directions'
+401       b'directions'
+",5,flight * dl123
+42,"78     flight delta los angeles seattle
+300      flight boston miami 300 dollar
+308               alert travel colombia
+337                      travel alert u
+467                        delta flight
+","78       b'book_flight'
+300      b'book_flight'
+308     b'travel_alert'
+337     b'travel_alert'
+467    b'flight_status'
+",5,flight * delta
+43,"26     go back default setting please
+175             start use factory set
+354     revert original configuration
+385             factory setting reset
+422      return factory fresh setting
+","26     b'reset_settings'
+175    b'reset_settings'
+354    b'reset_settings'
+385    b'reset_settings'
+422    b'reset_settings'
+",5,setting * factory
+44,"149    let know rollover 401k
+260    transfer 401k new firm
+343             rollover 401k
+455                 401k roll
+492       switch 401k company
+","149    b'rollover_401k'
+260    b'rollover_401k'
+343    b'rollover_401k'
+455    b'rollover_401k'
+492    b'rollover_401k'
+",5,401k * rollover
+45,"39                                 meeting 1 8 pm
+179        meeting room available meet 5pm friday
+224              check meeting room available 4 5
+242    please schedule meeting room 4 00 thursday
+387                 book meeting room friday 9 00
+","39     b'meeting_schedule'
+179    b'schedule_meeting'
+224    b'schedule_meeting'
+242    b'schedule_meeting'
+387    b'schedule_meeting'
+",5,meeting * room
+46,"113       pleasure speaking
+188    speak spanish hombre
+328             speak dutch
+386               good talk
+474          adulation mean
+","113    b'what_is_your_name'
+188      b'change_language'
+328      b'change_language'
+386              b'goodbye'
+474           b'definition'
+",5,speak * pleasure
+47,"57             many japanese yen u dollar
+87                     20 yen many dollar
+192    many mexican peso get one u dollar
+206                    convert kilo pound
+298         conversion 30 canadian dollar
+","57              b'exchange_rate'
+87              b'exchange_rate'
+192             b'exchange_rate'
+206    b'measurement_conversion'
+298             b'exchange_rate'
+",5,dollar * many
+48,"235       either one might
+311              like call
+362    might go either way
+444            like repeat
+","235                b'maybe'
+311    b'what_is_your_name'
+362                b'maybe'
+444               b'repeat'
+",4,either * might
+49,"186                      350 set oven
+228               proper cooking time
+451    average cooking time cook wing
+488         long take prepare lasagna
+","186    b'smart_home'
+228     b'cook_time'
+451     b'cook_time'
+488     b'cook_time'
+",4,cooking * time
+50,"22     post rush hour traffic generally look like hea...
+94     traffic nearest ben franklin bridge philadelph...
+256               traffic 95 north new york philadelphia
+276    tell traffic situation philadelphia new jersey...
+","22     b'traffic'
+94     b'traffic'
+256    b'traffic'
+276    b'traffic'
+",4,traffic * new
+51,"40                            im go brazil soon let bank
+391    let bank know ll ireland may 01 2019 august 02...
+399                          plug converter visit madrid
+402                   require plug converter visit kenya
+","40     b'travel_notification'
+391    b'travel_notification'
+399              b'plug_type'
+402              b'plug_type'
+",4,let * bank
+52,"2             tire fill enough
+63       often get tire change
+191        car due tire change
+322    level air pressure tire
+","2      b'tire_pressure'
+63       b'tire_change'
+191      b'tire_change'
+322    b'tire_pressure'
+",4,tire * change
+53,"23             yes factual
+102                correct
+135    answer question yes
+368                    yup
+","23     b'yes'
+102    b'yes'
+135    b'yes'
+368    b'yes'
+",4,yes * factual
+54,"10         last make purchase
+117    long ago take car shop
+187        know many day toof
+410    get know long next day
+","10         b'transactions'
+117    b'last_maintenance'
+187            b'pto_used'
+410        b'next_holiday'
+",4,long * know
+55,"136             spend much beer
+222    water shopping list beer
+282    many milliliter 2 gallon
+309          much alorie intake
+","136          b'spending_history'
+222      b'shopping_list_update'
+282    b'measurement_conversion'
+309                  b'calories'
+",4,much * beer
+56,"143           w2 form
+171                w2
+446    tax owe income
+481     amount income
+","143        b'w2'
+171        b'w2'
+446     b'taxes'
+481    b'income'
+",4,w2 * income
+57,"21               contact bank let know travel plan
+85            transaction fee use discover im cuba
+341            pull many point ve earn travel card
+420    many transaction fee use discover card rome
+","21     b'travel_notification'
+85      b'international_fees'
+341        b'rewards_balance'
+420     b'international_fees'
+",4,travel * transaction
+58,"1                 provide point life
+178    information give meaning life
+327      d like person know location
+412          let know company design
+","1      b'meaning_of_life'
+178    b'meaning_of_life'
+327     b'share_location'
+412       b'who_made_you'
+",4,life * know
+59,"130        set reminder let plumber tomorrow
+205               make reminder pay mortgage
+252       make reminder pay cable bill today
+280    please set reminder put clothes dryer
+","130    b'reminder_update'
+205    b'reminder_update'
+252    b'reminder_update'
+280    b'reminder_update'
+",4,reminder * set
+60,"20       tell fun fact today
+166       tell weather today
+189    tell weather forecast
+299     current weather like
+","20     b'fun_fact'
+166     b'weather'
+189     b'weather'
+299     b'weather'
+",4,tell * weather
+61,"95     transaction make electronics morning 6am
+415         show recent transaction account xyz
+441               transaction grocery yesterday
+486           show recent visa card transaction
+","95     b'transactions'
+415    b'transactions'
+441    b'transactions'
+486    b'transactions'
+",4,transaction * show
+62,"100    suggest french restaurant please
+200                  say must go german
+476     give american dinner suggestion
+","100    b'restaurant_suggestion'
+200                b'translate'
+476          b'meal_suggestion'
+",3,suggest * french
+63,"105                         ai call deb
+347    ai name deb please use name talk
+373            ask ai help math problem
+","105    b'change_user_name'
+347    b'change_user_name'
+373          b'calculator'
+",3,ai * deb
+64,"163          go indonesia visa
+170    required shot indonesia
+407      recommendation korean
+","163    b'international_visa'
+170              b'vaccines'
+407       b'meal_suggestion'
+",3,indonesia * go
+65,"29                                   spell fragile
+237    tell spell word schadenfreude nt know spelt
+448                           know spell curiosity
+","29     b'spelling'
+237    b'spelling'
+448    b'spelling'
+",3,spell * know
+66,"7      order doritos please
+334        order nacho chip
+352     order egg since run
+","7      b'order'
+334    b'order'
+352    b'order'
+",3,order * doritos
+67,"50     tell hobbies ai
+202         hobby like
+427    like know hobby
+","50     b'what_are_your_hobbies'
+202    b'what_are_your_hobbies'
+427    b'what_are_your_hobbies'
+",3,hobby * like
+68,"121    minimum payment water bill
+332          amex minimum payment
+342    minimum pay insurance bill
+","121    b'min_payment'
+332    b'min_payment'
+342    b'min_payment'
+",3,minimum * payment
+69,"44           healthy blueberrys
+64     peas work instead carrot
+110         health benefit work
+","44              b'nutrition_info'
+64     b'ingredient_substitution'
+110                  b'insurance'
+",3,work * healthy
+70,"137       ca nt find w 2
+381    help get w 2 form
+425         get w 2 form
+","137    b'w2'
+381    b'w2'
+425    b'w2'
+",3,w * 2
+71,"184    let know human computer
+317                  think bot
+428                      human
+","184    b'are_you_a_bot'
+317    b'are_you_a_bot'
+428    b'are_you_a_bot'
+",3,human * let
+72,"99     give list ingredient make pasta
+115         ingredients use pork belly
+232         know ingredient make pizza
+","99     b'ingredients_list'
+115    b'ingredients_list'
+232    b'ingredients_list'
+",3,ingredient * make
+73,"88     get hotel phoenix near chase field january 4th...
+177    book hotel jacksonville near stadium january 1...
+231                wan na find hotel good review phoenix
+","88     b'book_hotel'
+177    b'book_hotel'
+231    b'book_hotel'
+",3,hotel * phoenix
+74,"32     alert bank im check seattle next month
+43                       weather look seattle
+273            tell time san francisco please
+","32     b'travel_notification'
+43                 b'weather'
+273                   b'time'
+",3,seattle * alert
+75,"60     use martin name reserve table tropicana 5 peop...
+432      get reservation olive garden two 7 00pm michael
+472        michael reserve table two 7 00pm olive garden
+","60     b'restaurant_reservation'
+432    b'restaurant_reservation'
+472    b'restaurant_reservation'
+",3,reserve * table
+76,"288    let know bos
+404        call bos
+495             bos
+","288    b'who_do_you_work_for'
+404              b'make_call'
+495    b'who_do_you_work_for'
+",3,bos * let
+77,"91                              milk date use
+155    recipe still good use milk instead egg
+346                          suppose buy milk
+","91                   b'food_last'
+155    b'ingredient_substitution'
+346              b'shopping_list'
+",3,milk * use
+78,"157        wan na know jump start car
+277     wan na know car tire pressure
+421    wan na hear something cool bee
+","157       b'jump_start'
+277    b'tire_pressure'
+421         b'fun_fact'
+",3,wan * na
+79,"62     text courtney inform detour
+109          text mike im run late
+313              text dave ll soon
+","62     b'text'
+109    b'text'
+313    b'text'
+",3,text * courtney
+80,"357     tell david location
+405    share location david
+","357    b'share_location'
+405    b'share_location'
+",2,david * location
+81,"266              stuff try remember
+450    refresh memory item remember
+","266    b'reminder'
+450    b'reminder'
+",2,remember * stuff
+82,"27     ca nt say certain either way
+218           im completely certain
+","27     b'maybe'
+218    b'maybe'
+",2,certain * ca
+83,"165    put pto request september 1st september 8th
+359       interest baseball trivia nineteen eighty
+","165    b'pto_request'
+359       b'fun_fact'
+",2,september * put
+84,"211                      use phone call alexa
+274    please go amazon buy bluetooth speaker
+","211    b'make_call'
+274        b'order'
+",2,use * phone
+85,"433     whats age range
+466    whats exact time
+","433    b'how_old_are_you'
+466               b'time'
+",2,whats * age
+86,"306    start use different accent
+461      please switch male voice
+","306    b'change_accent'
+461    b'change_accent'
+",2,start * use
+87,"93     embark trip europe get shot
+253                 safe go serbia
+","93         b'vaccines'
+253    b'travel_alert'
+",2,embark * trip
+88,"65       rent car 3 1 3 3 boston d prefer suv
+275    hotel room 4 people may 3 may 5 boston
+","65     b'car_rental'
+275    b'book_hotel'
+",2,3 * boston
+89,"464    fun cheap activity colorado
+","464    b'travel_suggestion'
+",1,fun * cheap
+90,"411    breakfast place full morning
+","411    b'how_busy'
+",1,breakfast * place
+91,"217    statement false
+","217    b'no'
+",1,statement * false
