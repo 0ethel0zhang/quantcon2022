@@ -1,0 +1,201 @@
+,cluster,text,intent,norm_text,cluster_size,norm_word_lst
+0,5,b'do you know how i can change my insurance policy',b'insurance_change',b'know change insurance policy',11,insurance * 
+1,5,b'do you know how i get new insurance',b'insurance_change',b'know new insurance',11,insurance * 
+2,5,b'can you tell me what health plan i am on',b'insurance',b'tell health plan ',11,insurance * 
+3,5,b'i want a new insurance plan',b'insurance_change',b'want new insurance plan',11,insurance * 
+4,5,b'phone number to state farm to change insurance',b'insurance_change',b'phone number state farm change insurance',11,insurance * 
+5,5,b'tell me the full name of my health plan',b'insurance',b'tell health plan',11,insurance * 
+6,5,b'how do my health benefits work',b'insurance',b'health benefits work',11,insurance * 
+7,5,"b""ca n't find w 2""",b'w2',b'nt find w 2',11,insurance * 
+8,5,b'i need a w2 form from',b'w2',b'need w2 form ',11,insurance * 
+9,5,"b'i need a w2 , so where is it'",b'w2',b'need w2  ',11,insurance * 
+10,5,b'who do you report to for your work',b'who_do_you_work_for',b'report work',11,insurance * 
+11,1,b'would you provide me with what the point of life is',b'meaning_of_life',b'provide point life ',9,tell * life
+12,1,b'tell me something funny about horses',b'tell_joke',b'tell funny horses',9,tell * life
+13,1,b'tell me fun facts of today',b'fun_fact',b'tell fun facts today',9,tell * life
+14,1,b'can you tell me something funny about science',b'tell_joke',b'tell funny science',9,tell * life
+15,1,b'can you tell me what hobbies the ai has',b'what_are_your_hobbies',b'tell hobbies ai ',9,tell * life
+16,1,b'do you have any monkey jokes',b'tell_joke',b'monkey jokes',9,tell * life
+17,1,b'what kind of things do i have to do today',b'todo_list',b'kind things today',9,tell * life
+18,1,b'will you tell me a joke',b'tell_joke',b'tell joke',9,tell * life
+19,1,b'what information can you give me on the meaning of life',b'meaning_of_life',b'information meaning life',9,tell * life
+20,2,b'my tires are filled enough or no',b'tire_pressure',b'tires filled ',17,car * 
+21,2,b'what do i do now that my battery is dead',b'jump_start',b'battery dead',17,car * 
+22,2,b'i want to change the oil in my car but i do not know how to do it can you help',b'oil_change_how',b'want change oil car know help',17,car * 
+23,2,b'how often should i get my tires changed',b'tire_change',b'tires changed',17,car * 
+24,2,"b""could someone look at my check engine light that 's on""",b'schedule_maintenance',b'look check engine light s ',17,car * 
+25,2,b'i need gas what type do i need for this car',b'gas_type',b'need gas type need car',17,car * 
+26,2,b'what can i do to jump start my car',b'jump_start',b'jump start car',17,car * 
+27,2,b'how long ago did i take my car to the shop',b'last_maintenance',b'long ago car shop',17,car * 
+28,2,b'i last got my oil changed when',b'last_maintenance',b'got oil changed ',17,car * 
+29,2,"b'is it possible to change oil , if so how and what do i use'",b'oil_change_how',b'possible change oil  use',17,car * 
+30,2,b'may i schedule a car maintenance',b'schedule_maintenance',b'schedule car maintenance',17,car * 
+31,2,b'i wanna know how to jump start my car',b'jump_start',b'wanna know jump start car',17,car * 
+32,2,b'what is the process for jump starting my car',b'jump_start',b'process jump starting car',17,car * 
+33,2,b'whats the mpg for this car',b'mpg',b'whats mpg car',17,car * 
+34,2,b'i need an appointment for someone to check out my check engine light being on',b'schedule_maintenance',b'need appointment check check engine light ',17,car * 
+35,2,b'when is my car due for an tire change',b'tire_change',b'car tire change',17,car * 
+36,2,"b""how 's my gasoline how much do i have left""",b'gas',b's gasoline left',17,car * 
+37,9,b'how come i got declined',b'card_declined',b'come got declined',9,credit * score
+38,9,b'what are the steps to get my rewards for my visa card',b'redeem_rewards',b'steps rewards visa card',9,credit * score
+39,9,b'how can i get my credit limit to be increased to 1000',b'credit_limit_change',b'credit limit increased 1000',9,credit * score
+40,9,b'can i get more credit',b'credit_limit_change',b'credit',9,credit * score
+41,9,b'how can i prevent my credit score from dropping',b'improve_credit_score',b'prevent credit score dropping',9,credit * score
+42,9,b'put in a request for cashing in credit points',b'redeem_rewards',b'request cashing credit points',9,credit * score
+43,9,"b""i wanna know my credit card 's rewards balance""",b'rewards_balance',b'wanna know credit card s rewards balance',9,credit * score
+44,9,b'tell me what my credit score is',b'credit_score',b'tell credit score ',9,credit * score
+45,9,"b""what steps should i take if i want to ensure my credit score does n't drop""",b'improve_credit_score',b'steps want ensure credit score nt drop',9,credit * score
+46,18,b'should i have my shots up to date before i travel to the virgin islands',b'vaccines',b'shots date travel virgin islands',5,shots * trip
+47,18,b'vaccines for my trip to cuba',b'vaccines',b'vaccines trip cuba',5,shots * trip
+48,18,b'before i embark on a trip to europe should i get more shots',b'vaccines',b'embark trip europe shots',5,shots * trip
+49,18,b'if i go to indonesia would i need a visa',b'international_visa',b'indonesia need visa',5,shots * trip
+50,18,b'are there any required shots in indonesia',b'vaccines',b'required shots indonesia',5,shots * trip
+51,3,"b'whisper mode , stop'",b'whisper_mode',b'whisper mode  stop',11,set * 
+52,3,b'please start whisper mode',b'whisper_mode',b'start whisper mode',11,set * 
+53,3,b'go back to the default settings please',b'reset_settings',b'default settings ',11,set * 
+54,3,b'set an alarm for 6 am tomorrow',b'alarm',b'set alarm 6 tomorrow',11,set * 
+55,3,b'speed up your talking',b'change_speed',b'speed talking',11,set * 
+56,3,b'set a reminder for me to let the plumber in tomorrow',b'reminder_update',b'set reminder let plumber tomorrow',11,set * 
+57,3,b'set an alarm to wake me up at 5 30am',b'alarm',b'set alarm wake 5 30am',11,set * 
+58,3,b'start over using factory setting',b'reset_settings',b'start factory setting',11,set * 
+59,3,b'set a timer',b'timer',b'set timer',11,set * 
+60,3,b'350 set the oven',b'smart_home',b'350 set oven',11,set * 
+61,3,b'go faster',b'change_speed',b'faster',11,set * 
+62,14,"b'order me some doritos , please'",b'order',b'order doritos  ',27, * order
+63,14,"b'yes , that is factual'",b'yes',b'yes  factual',27, * order
+64,14,b'can i start calling you fred',b'change_ai_name',b'start calling fred',27, * order
+65,14,"b""i ca n't say for certain either way""",b'maybe',b'nt certain way',27, * order
+66,14,b'can you spell fragile for me',b'spelling',b'spell fragile ',27, * order
+67,14,"b'can you call me a different name , please'",b'change_user_name',b'different ',27, * order
+68,14,"b'talk to you soon , bye !'",b'goodbye',b'talk soon  bye ',27, * order
+69,14,b'please buy me something',b'order',b'buy ',27, * order
+70,14,b'text courtney and inform her about the detour',b'text',b'text courtney inform detour',27, * order
+71,14,b'hey there',b'greeting',b'hey ',27, * order
+72,14,"b'i need to buy something , please'",b'order',b'need buy ',27, * order
+73,14,b'can you tell me when my item will get here',b'order_status',b'tell item ',27, * order
+74,14,"b""that 's correct""",b'yes',b's correct',27, * order
+75,14,b'goodbye',b'goodbye',b'goodbye',27, * order
+76,14,"b'ai , call me deb'",b'change_user_name',b'ai  deb',27, * order
+77,14,b'make a call for me to the vet',b'make_call',b'vet',27, * order
+78,14,"b""text mike , i'm running late""",b'text',b'text mike  im running late',27, * order
+79,14,b'who do i have the pleasure of speaking with',b'what_is_your_name',b'pleasure speaking ',27, * order
+80,14,b'can you place an order for the olive oil i just finished',b'order',b'place order olive oil finished',27, * order
+81,14,b'can we change your name to clara',b'change_ai_name',b'change clara',27, * order
+82,14,b'my answer to your question is yes',b'yes',b'answer question yes',27, * order
+83,14,b'can you tell me my name for me',b'user_name',b'tell ',27, * order
+84,14,b'i agree',b'yes',b'agree',27, * order
+85,14,b'that checks out',b'yes',b'checks ',27, * order
+86,14,b'i want you to call me bailey',b'change_user_name',b'want bailey',27, * order
+87,14,b'let me know if you are a human or are a computer',b'are_you_a_bot',b'let know human computer',27, * order
+88,14,b'can i speak spanish to you hombre',b'change_language',b'speak spanish hombre',27, * order
+89,6,b'what is the weather doing in austin',b'weather',b'weather austin',8,weather * 
+90,6,b'how is the weather looking in seattle',b'weather',b'weather looking seattle',8,weather * 
+91,6,b'where were you before',b'where_are_you_from',b'',8,weather * 
+92,6,b'what is the weather doing now',b'weather',b'weather ',8,weather * 
+93,6,b'where am i currently located',b'current_location',b'currently located',8,weather * 
+94,6,b'tell me the weather for today',b'weather',b'tell weather today',8,weather * 
+95,6,b'can you tell me the weather forecast',b'weather',b'tell weather forecast',8,weather * 
+96,6,b'where am i',b'current_location',b'',8,weather * 
+97,15,b'how much money did i spend this weekend',b'spending_history',b'money spend weekend',6,money * spend
+98,15,b'check how much i spent this week',b'spending_history',b'check spent week',6,money * spend
+99,15,b'do i spend too much on beer',b'spending_history',b'spend beer',6,money * spend
+100,15,b'pto i have used so far is how much',b'pto_used',b'pto far ',6,money * spend
+101,15,"b""would you say i 've spent too much money on chips as of late""",b'spending_history',b've spent money chips late',6,money * spend
+102,15,"b'looking at this week only , have i overspent on hoagies'",b'spending_history',b'looking week overspent hoagies',6,money * spend
+103,0,b'when did i last make a purchase',b'transactions',b'purchase',19,account * bank
+104,0,b'how much have i spent on my bank card sine i last paid my bill',b'transactions',b'spent bank card sine paid bill',19,account * bank
+105,0,b'contact bank and let them know about my travel plans',b'travel_notification',b'contact bank let know travel plans',19,account * bank
+106,0,b'i need my account frozen !',b'freeze_account',b'need account frozen ',19,account * bank
+107,0,"b""what 's the latest i can pay my cellular bill""",b'bill_due',b's latest pay cellular bill',19,account * bank
+108,0,"b""alert my bank i'm checking out seattle for the next month""",b'travel_notification',b'alert bank im checking seattle month',19,account * bank
+109,0,b'what was the date when i last go paid',b'payday',b'date paid',19,account * bank
+110,0,"b""i'm going to brazil soon and want to let my bank now""",b'travel_notification',b'im going brazil soon want let bank ',19,account * bank
+111,0,b'how do i order some more checks for my bank of the west account',b'order_checks',b'order checks bank west account',19,account * bank
+112,0,b'i would like to change the name on my first bankcard account',b'pin_change',b'like change bankcard account',19,account * bank
+113,0,b'what transactions did i make on electronics this morning after 6am',b'transactions',b'transactions electronics morning 6am',19,account * bank
+114,0,b'my capital one visa was taken without permission',b'report_lost_card',b'capital visa taken permission',19,account * bank
+115,0,b'i need to tell you about my lost card',b'report_lost_card',b'need tell lost card',19,account * bank
+116,0,b'for my chase account can i order some checkbooks',b'order_checks',b'chase account order checkbooks',19,account * bank
+117,0,"b'is there a problem with my account , it appears to be blocked'",b'account_blocked',b'problem account  appears blocked',19,account * bank
+118,0,b'why is my checking account not working',b'account_blocked',b'checking account working',19,account * bank
+119,0,b'why is my bank account locked',b'account_blocked',b'bank account locked',19,account * bank
+120,0,b'i want to report a damaged card',b'damaged_card',b'want report damaged card',19,account * bank
+121,0,b'is the phone bill the same as last month',b'bill_balance',b'phone bill month',19,account * bank
+122,7,"b""what 's my checking look like""",b'balance',b's checking look like',6,savings * account
+123,7,"b""what 's my savings account interest""",b'interest_rate',b's savings account interest',6,savings * account
+124,7,b'how do i set up a direct deposit',b'direct_deposit',b'set direct deposit',6,savings * account
+125,7,b'let me know how to rollover my 401k',b'rollover_401k',b'let know rollover 401k',6,savings * account
+126,7,b'can you make 1234 the pin for my savings account',b'pin_change',b'1234 pin savings account',6,savings * account
+127,7,b'tell me what my savings account routing number is',b'routing',b'tell savings account routing number ',6,savings * account
+128,8,b'any clue as to if taco bell takes reservations',b'accept_reservations',b'clue taco bell takes reservations',13,reservations * reservation
+129,8,b'do you have any idea if central needs reservations',b'accept_reservations',b'idea central needs reservations',13,reservations * reservation
+130,8,b'use martins name to reserve a table at tropicana for 5 people at 8pm',b'restaurant_reservation',b'use martins reserve table tropicana 5 people 8pm',13,reservations * reservation
+131,8,"b""rent a car for 3 1 through 3 3 in boston i 'd prefer an suv""",b'car_rental',b'rent car 3 1 3 3 boston d prefer suv',13,reservations * reservation
+132,8,"b""confirm the john reservation at applebee 's""",b'confirm_reservation',b'confirm john reservation applebee s',13,reservations * reservation
+133,8,"b""i do n't need the reservation anymore""",b'cancel_reservation',b'nt need reservation anymore',13,reservations * reservation
+134,8,b'get me a hotel in phoenix near chase field from january 4th to the 8th',b'book_hotel',b'hotel phoenix near chase field january 4th 8th',13,reservations * reservation
+135,8,b'cancel my reservation for dinner tonight',b'cancel_reservation',b'cancel reservation dinner tonight',13,reservations * reservation
+136,8,b'do they take reservations at applebeesi',b'accept_reservations',b'reservations applebeesi',13,reservations * reservation
+137,8,b'tell me if the new york restaurant takes reservations',b'accept_reservations',b'tell new york restaurant takes reservations',13,reservations * reservation
+138,8,"b'cancel my reservation for dinner this saturday , please'",b'cancel_reservation',b'cancel reservation dinner saturday  ',13,reservations * reservation
+139,8,b'book me a hotel in jacksonville near the stadium from january 1st to 3rd',b'book_hotel',b'book hotel jacksonville near stadium january 1st 3rd',13,reservations * reservation
+140,8,b'find a decent rental care for next week at the philadelphia airport',b'car_rental',b'find decent rental care week philadelphia airport',13,reservations * reservation
+141,19,b'what does post rush hour traffic generally look like heading into the lincoln tunnel in manhattan from new jersey',b'traffic',b'post rush hour traffic generally look like heading lincoln tunnel manhattan new jersey',3,traffic * jersey
+142,19,b'is there traffic expected',b'traffic',b'traffic expected',3,traffic * jersey
+143,19,b'how is traffic nearest the ben franklin bridge philadelphia heading to the new jersey turnpike',b'traffic',b'traffic nearest ben franklin bridge philadelphia heading new jersey turnpike',3,traffic * jersey
+144,11,b'i want to know how many vacation days i have used',b'pto_used',b'want know vacation days ',4, * days
+145,11,b'how many vacation days i have used',b'pto_used',b'vacation days ',4, * days
+146,11,b'can i put in a pto request for september 1st to september 8th',b'pto_request',b'pto request september 1st september 8th',4, * days
+147,11,b'i need to know how many days i toof off',b'pto_used',b'need know days toof ',4, * days
+148,24,b'flip a coin for me and i call heads',b'flip_coin',b'flip coin heads',4,coin * flip
+149,24,b'can you do a coin flip for me ai',b'flip_coin',b'coin flip ai',4,coin * flip
+150,24,"b""flip a coin and tell me if it 's heads""",b'flip_coin',b'flip coin tell s heads',4,coin * flip
+151,24,"b'heads , coin flip'",b'flip_coin',b'heads  coin flip',4,coin * flip
+152,27,b'do i have any meetings between 1 and 8 pm',b'meeting_schedule',b'meetings 1 8 pm',4,friday * meeting
+153,27,"b""is the friday 's full after 4""",b'how_busy',b'friday s 4',4,friday * meeting
+154,27,b'check the start time of the meeting scheduled for today',b'meeting_schedule',b'check start time meeting scheduled today',4,friday * meeting
+155,27,b'what meeting rooms are available for meeting 5pm friday',b'schedule_meeting',b'meeting rooms available meeting 5pm friday',4,friday * meeting
+156,20,b'when is the date of expiration for my first bank card',b'expiration_date',b'date expiration bank card',3,date * expiration
+157,20,b'what is the expiration date for honey',b'food_last',b'expiration date honey',3,date * expiration
+158,20,b'when is the milk date before used',b'food_last',b'milk date ',3,date * expiration
+159,4,b'how healthy is blueberrys',b'nutrition_info',b'healthy blueberrys',4,content * calorie
+160,4,b'calorie content of dr pepper',b'calories',b'calorie content dr pepper',4,content * calorie
+161,4,b'what is the number of calories in a steak',b'calories',b'number calories steak',4,content * calorie
+162,4,"b""what 's the calorie content of french fries""",b'calories',b's calorie content french fries',4,content * calorie
+163,21,b'is my luggage lost',b'lost_luggage',b'luggage lost',6,luggage * need
+164,21,"b""i ca n't find my luggage""",b'lost_luggage',b'nt find luggage',6,luggage * need
+165,21,b'i need a flight on delta from los angeles to seattle',b'book_flight',b'need flight delta los angeles seattle',6,luggage * need
+166,21,b'i must know the the carry on restrictions for american airlines',b'carry_on',b'know carry restrictions american airlines',6,luggage * need
+167,21,b'let me know the status of my american airlines flight',b'flight_status',b'let know status american airlines flight',6,luggage * need
+168,21,b'i need help finding my luggage',b'lost_luggage',b'need help finding luggage',6,luggage * need
+169,10,b'what interest rate am i getting from nfcu',b'interest_rate',b'interest rate getting nfcu',6,rate * interest
+170,10,b'what interest rate am i getting from sunflower bank',b'interest_rate',b'interest rate getting sunflower bank',6,rate * interest
+171,10,b'how much do i pay the irs',b'taxes',b'pay irs',6,rate * interest
+172,10,b'what is the minimum payment on my water bill',b'min_payment',b'minimum payment water bill',6,rate * interest
+173,10,b'what interest rate is bofi giving me on my cd',b'interest_rate',b'interest rate bofi giving cd',6,rate * interest
+174,10,"b'at a minimum , what must i pay on my verizon bill'",b'min_payment',b'minimum  pay verizon bill',6,rate * interest
+175,12,b'can you find any good places in cleveland that serve clams',b'restaurant_suggestion',b'find good places cleveland serve clams',3,NA * NA
+176,12,"b'can you suggest a french restaurant , please'",b'restaurant_suggestion',b'suggest french restaurant  ',3,NA * NA
+177,12,b'any fantastic restaurants to get shrimp at in atlanta',b'restaurant_suggestion',b'fantastic restaurants shrimp atlanta',3,NA * NA
+178,25,b'how many japanese yen are in a us dollar',b'exchange_rate',b'japanese yen dollar',3,yen * dollar
+179,25,b'20 yen is how many dollars',b'exchange_rate',b'20 yen dollars',3,yen * dollar
+180,25,b'how many mexican pesos can i get for one us dollar',b'exchange_rate',b'mexican pesos dollar',3,yen * dollar
+181,13,b'will peas work instead of carrots',b'ingredient_substitution',b'peas work instead carrots',6,list * milk
+182,13,b'give me a list of ingredients for making pasta',b'ingredients_list',b'list ingredients making pasta',6,list * milk
+183,13,b'what ingredients do i use for pork belly',b'ingredients_list',b'ingredients use pork belly',6,list * milk
+184,13,b'add milk to my shopping list',b'shopping_list_update',b'add milk shopping list',6,list * milk
+185,13,b'will this recipe still be good if i use milk instead of eggs',b'ingredient_substitution',b'recipe good use milk instead eggs',6,list * milk
+186,13,b'remove milk and add eggs to my shopping list',b'shopping_list_update',b'remove milk add eggs shopping list',6,list * milk
+187,17,b'which timezone is denver located',b'timezone',b'timezone denver located',2,NA * NA
+188,17,b'i need the time zone for la',b'timezone',b'need time zone la',2,NA * NA
+189,22,b'add what im listening to to my rock playlist',b'update_playlist',b'add im listening rock playlist',4,playlist * add
+190,22,b'play ludacris hits',b'play_music',b'play ludacris hits',4,playlist * add
+191,22,b'please add this song to my study playlist',b'update_playlist',b'add song study playlist',4,playlist * add
+192,22,b'put on my 90s playlist',b'play_music',b'90s playlist',4,playlist * add
+193,16,"b""are there transaction fees using my discover if i'm in cuba""",b'international_fees',b'transaction fees discover im cuba',3,cuba * NA
+194,16,b'do i need a visa to get to puerto rico',b'international_visa',b'need visa puerto rico',3,cuba * NA
+195,16,b'are visas required to go to cuba',b'international_visa',b'visas required cuba',3,cuba * NA
+196,23,"b'is my flight , dl123 on time'",b'flight_status',b'flight  dl123 time',2,dl123 * flight
+197,23,b'is flight dl123 delayed',b'flight_status',b'flight dl123 delayed',2,dl123 * flight
+198,26,b'what is my state bank of india card credit limit',b'credit_limit',b'state bank india card credit limit',2,card * limit
+199,26,"b""what 's the spending limit on my lloyds card""",b'credit_limit',b's spending limit lloyds card',2,card * limit
